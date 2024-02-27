@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #16e44a;
+    --text-color: #ededed;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    position:  fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h3 {
+    position: relative;
+    align-items: flex-start;
+    left: 5%;
+    color: #16e44a;
+}
+
+.logo {
+    position: relative;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+  }
+
+.navbar {
+    position: relative;
+}
+
+  .navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+   
+}
+
+.home-img {
+    position: fixed;
+    background: transparent;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;   
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.home-content img {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #e9700d;
+   
+}
+
+
+.home-content p {
+    font-size: 3.6rem;
+    margin: 2rem 0 4rem;
+    text-align: justify;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--bg-color);
+    padding-bottom: 6rem;   
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #e9700d;
+}
+
+.about-content p {
+    position: relative;
+    font-size: 3.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.products-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.products-table {
+    position: relative;
+    border: .2rem solid var(--bg-color);
+    border-radius: .6rem;
+    padding: .5rem 1.5rem;
+    z-index: 1;
+    overflow: hidden; 
+}
+
+.products-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+.products-table th, td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+.products-table th {
+    font-size: 3.6rem;
+    margin: 2rem 0 4rem;
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+.products-table td {
+    font-size: 3.6rem;
+    margin: 2rem 0 4rem;
+    text-align: justify;
+    font-weight: bold;   
+}
+
+.products-table tr:nth-child(even) {
+    background-color: #e9700d;
+}
+
+.products-content h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #e9700d;
+}
+
+.pichas-content {
+    text-align: center;
+}
+
+.pichas-content h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #e9700d;
+    
+
+}
+
+
+.pichas-content .pichas-img {
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+
+.pichas-img img {
+    height: 300px;
+}
+
+.videos-content {
+    text-align: center;
+}
+
+.videos-content h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #e9700d;
+}
+
+.videos-content iframe {
+    width: 1280px;
+    height: 720px;
+    background-attachment: fixed;
+    background-size: cover;
+}
